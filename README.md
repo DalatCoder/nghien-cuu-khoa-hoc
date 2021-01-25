@@ -98,13 +98,13 @@ Here, we have data. We want to find clusters in that data. This is a good exampl
 ![Styles of machine learning algorithms](assets/algorithms.png)
 
 ### 10.4 Training a model with supervised learning
-<p>Traing a model with supervised learning</p>
+Traing a model with supervised learning
 ![Training a model](assets/training-model.png)
 
-<p>Testing a model</p>
+Testing a model
 ![Testing a model](assets/testing-model.png)
 
-<p>Improving a model</p>
+Improving a model
 ![Improve a model](assets/improve-model.png)
 
 ### 10.5 Using a model
