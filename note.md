@@ -64,36 +64,6 @@
 
 ![The machine learning process](assets/process.png)
 
-## 10. A closer look at Machine learning
-- Training data
-- Supervised and unsupervised learning
-- Classifying machine learning problems and algorithms
-- Training a model
-- Testing a model
-- Using a model 
-### Some terminology
-- Training data: the prepared data used to create a model
-- Creating a model is called training a model
-- Supervised learning: the value you want to predict is in the training data. The data is labeled
-- Unsupervised learning: the value you want to predict is not in the training data. The data is unlabeled
-
-### Data preprocessing with supervised learning
-![Supervised learning](assets/supervised-learning.png)
-
-### Categorizing machine learning problems: 
-#### 1. Regression:
-The problem here is that we have data, and we'd like to find a line or curve that best fits that data. Regression problems are typically supervised learning scenarios.
-An example question would be something like: how many units of this product will we sell next month?
-![Regression machine learning](assets/regression.png)
-
-#### 2. Classification
-Here, we have data that we want to group into classes, at least two, can be more than two classes. When new data comes in, we want to determine which class that data belongs to. This is commonly used with supervised learning and an example question would be something like: Is this credit card transaction fraudulent? When a new transaction comes in, we want to predict which class it's in, fraudulent or not fraudulent. And often, what you'll get back is not yes or no, but a probability of which class this new transaction might be in.
-![Classification machine learning](assets/classification.png)
-
-#### 3. Clustering
-Here, we have data. We want to find clusters in that data. This is a good example of when we're going to use unsupervised learning because we don't have labeled data. We don't know necessarily what we're looking for. An example question here is something like what are our customer segments? We might not know these things up front, but we can use machine learning, unsupervised machine learning to help use figure that out.
-![Clustering machine learning](assets/clustering.png)
-
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
