@@ -103,6 +103,11 @@ Here, we have data that we want to group into classes, at least two, can be more
 <p>Improving a model</p>
 ![Improve a model](assets/improve-model.png)
 
+### 10.5 Using a model
+![Using a model](assets/using-model.png)
+
+### 10.6 Implementing machine learning: Example technologies
+![Machine learning technologies](assets/technologies.png)
 
 #### 3. Clustering
 Here, we have data. We want to find clusters in that data. This is a good example of when we're going to use unsupervised learning because we don't have labeled data. We don't know necessarily what we're looking for. An example question here is something like what are our customer segments? We might not know these things up front, but we can use machine learning, unsupervised machine learning to help use figure that out.
