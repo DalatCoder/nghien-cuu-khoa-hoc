@@ -90,6 +90,10 @@ An example question would be something like: how many units of this product will
 Here, we have data that we want to group into classes, at least two, can be more than two classes. When new data comes in, we want to determine which class that data belongs to. This is commonly used with supervised learning and an example question would be something like: Is this credit card transaction fraudulent? When a new transaction comes in, we want to predict which class it's in, fraudulent or not fraudulent. And often, what you'll get back is not yes or no, but a probability of which class this new transaction might be in.
 ![Classification machine learning](assets/classification.png)
 
+#### 3. Clustering
+Here, we have data. We want to find clusters in that data. This is a good example of when we're going to use unsupervised learning because we don't have labeled data. We don't know necessarily what we're looking for. An example question here is something like what are our customer segments? We might not know these things up front, but we can use machine learning, unsupervised machine learning to help use figure that out.
+![Clustering machine learning](assets/clustering.png)
+
 ### 10.3 Styles of machine learning algorithms
 ![Styles of machine learning algorithms](assets/algorithms.png)
 
@@ -108,11 +112,6 @@ Here, we have data that we want to group into classes, at least two, can be more
 
 ### 10.6 Implementing machine learning: Example technologies
 ![Machine learning technologies](assets/technologies.png)
-
-#### 3. Clustering
-Here, we have data. We want to find clusters in that data. This is a good example of when we're going to use unsupervised learning because we don't have labeled data. We don't know necessarily what we're looking for. An example question here is something like what are our customer segments? We might not know these things up front, but we can use machine learning, unsupervised machine learning to help use figure that out.
-![Clustering machine learning](assets/clustering.png)
-
 
 # Foundations of PyTorch
 
