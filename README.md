@@ -161,6 +161,34 @@ Workflow:
 
 > Use the Machine learning workflow to process and transform Pima Indian data to create a prediction model. This model must predict which people are likely to develop diabetes with 70% or greater accuracy.
 
+### 2.2: Preparing your data
+- Find the data we need
+- Inspect and clean the data
+- Explore the data
+- Mold the data to Tidy data
+
+#### Tidy Data
+> Tidy datasets are easy to manipulate, model and visualize, and have a specific structure:
+- each variable is a column,
+- each observation is a row,
+- each type of observational unit is a table
+
+50-80% of a Machine Learning project is spent getting, cleaning, and organizing data
+
+#### Getting data
+* Google
+* Government databases
+* Professional or company data sources
+* Your company
+* Your department
+* All of the above
+
+##### Data Rule #1
+Closer the data is to what you are predicting, the better
+
+##### Data Rule #2
+Data will never be in the format you need (pandas DataFrames)
+
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
