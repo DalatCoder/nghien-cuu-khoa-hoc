@@ -153,6 +153,14 @@ Workflow:
 - More data is better: more data => Best results
 - Don't pursue a bad solution: reevalute, fix or quit
 
+### 2.1: Asking the right question
+- Deine scope (including data sources)
+- Define target performance
+- Define context for usage
+- Define how solution will be created
+
+> Use the Machine learning workflow to process and transform Pima Indian data to create a prediction model. This model must predict which people are likely to develop diabetes with 70% or greater accuracy.
+
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
