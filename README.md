@@ -113,6 +113,46 @@ Improving a model
 ### 10.6 Implementing machine learning: Example technologies
 ![Machine learning technologies](assets/technologies.png)
 
+# Understanding Machine Learning with Python
+## 1. Getting started in Machine learning
+### 1.1: What is machine learning?
+Machine learning in action:
+* Is this email spam?
+* How can cars drive themselves?
+* What will people buy?
+	
+> Machine learning
+> Build a model from example inputs to make data-driven predictions vs. following strictly static program instructions
+
+### 1.2: Types of Machine learning?
+1. Supervised:
+- Value prediction
+- Needs training data containing value being predicted
+- Training model predicts value in new data
+
+2. Unsupervised:
+- Identify clusters of like data
+- Data does not contain cluster membership
+- Model provides access to data by cluster
+
+## 2. Understanding the machine learning workflow
+Machine learning workflow
+> An orchestrated and repeatable pattern which systematically transforms and processes information to create prediction solutions.
+
+Workflow:
+1. Asking the right question
+2. Preparing data
+3. Selecting the algorithm
+4. Training the model
+5. Testing the model
+
+### Machine learning workflow guidelines
+- Early steps are most important: Each step depends on previous steps
+- Expect to go backwards: later knowledges effects previous steps
+- Data is never as you need it: data will have to be altered
+- More data is better: more data => Best results
+- Don't pursue a bad solution: reevalute, fix or quit
+
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
