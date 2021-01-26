@@ -207,6 +207,10 @@ Algorithm Decision Factors:
 * Complexity
 * Basic vs enhanced
 
+### 2.4: Training The Model
+> Machine Learning Training
+> Letting specific data teach a Machine Learning algorithm to create a specific prediction model
+
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
