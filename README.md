@@ -189,6 +189,24 @@ Closer the data is to what you are predicting, the better
 ##### Data Rule #2
 Data will never be in the format you need (pandas DataFrames)
 
+##### Data Rule #3
+Accurately predicting rare events is difficult
+
+#### Data Rule #4
+Track how you minipulate data
+
+### 2.3: Selecting Your Algorithm
+Algorithm Selection:
+* Compare factors
+* Difference of opinions about which factors are important
+* You will develop your own factors
+
+Algorithm Decision Factors:
+* Learning type
+* Result
+* Complexity
+* Basic vs enhanced
+
 # Foundations of PyTorch
 
 ## 1. Getting started with Pytorch for machine learning
