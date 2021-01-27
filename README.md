@@ -270,9 +270,11 @@ If you're thinking of an image classification system:
 ![Visible layer in neural network](assets/visible-layer-neural-network.png)
 
 **The layers that we as developers don't interact with directly are termed as hidden layers on the neural network.**
+
 These are the layers that are responsible for extracting granular detail from the input, finding patterns, and piecing these patterns into higher level abstractions.
 
 **Every layer of a neural network is composed of the active learning unit, that is a neuron**
+
 So each layer consists of individual interconnected neurons.
 
 Neurons receive input from neurons in the previous layer and pass the output to neurons in the next layer.
