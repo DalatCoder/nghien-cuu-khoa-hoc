@@ -327,6 +327,20 @@ Neurons receive input from neurons in the previous layer and pass the output to 
 
 	![Affine transformation detail](assets/affine-transformation-detail.png)
 
+	* Neural network are capable of modeling very complex non-linear relationships as well. And this is made possible due to the other function that a neuron applies to its inputs, that is the activation function.
+	* The output of the affine transformation is fed into this **activation function**, and this is the function that helps the neuron discover non-linear relationships and data.
+	* There are a number of different activation functions that you can use when you're building up the layers of a neural network, and the choice of activation function is a part of designing a neural network.
+
+	![Activation function](assets/activation-function.png)
+
+	* When the activation function is the identify function. It takes the output of the affine transformation and simply passes the same output through as the output of the neuron.
+	* This neuron is referred to as a **linear neuron**. Such a neuron is only capable of learning linear relationships between the inputs and the output
+
+	![The identify function](assets/activation-function-identify.png)
+
+
+
+
 
 
 
