@@ -290,58 +290,74 @@ Neurons receive input from neurons in the previous layer and pass the output to 
 
 	![Operation of a single neuron](assets/operation-of-single-neuron.png)
 
-	* A single neuron can be connected to any number of neurons in the next layer.
-	* In the below figure, the output of the first neuron is fed to the input of the second neuron.
-	* Every interconnection between two neurons is associated with the *weight* that is typically represented by the letter W. This *weight* denotes the significance of this particular input for the second neuron.
-	* **If the second neuron is sensitive to the output of the first neuron, the connection between them gets stronger**
-	* **Neurons that fire together are wired together**
+* A single neuron can be connected to any number of neurons in the next layer.
+* In the below figure, the output of the first neuron is fed to the input of the second neuron.
+* Every interconnection between two neurons is associated with the *weight* that is typically represented by the letter W. This *weight* denotes the significance of this particular input for the second neuron.
+* **If the second neuron is sensitive to the output of the first neuron, the connection between them gets stronger**
+* **Neurons that fire together are wired together**
 
-	![Operation of a single neuron - Weight](assets/operation-of-single-neuron-weight.png)
+![Operation of a single neuron - Weight](assets/operation-of-single-neuron-weight.png)
 
-	* A term that you'll hear used for this W is model parameters. All of the weights associated with all of the interconnections in your neural network are the parameters that make up your machine learning model.
-	* The above figure is a zoom in view of a single interconnection between two neurons. But all of the neurons in all of the layers of a neural network are connected together in exactly the same way.
-	* **So this entire thing is a very large computation graph** and the nodes in this enormous computation graph are just neurons. 
+* A term that you'll hear used for this W is model parameters. All of the weights associated with all of the interconnections in your neural network are the parameters that make up your machine learning model.
+* The above figure is a zoom in view of a single interconnection between two neurons. But all of the neurons in all of the layers of a neural network are connected together in exactly the same way.
+* **So this entire thing is a very large computation graph** and the nodes in this enormous computation graph are just neurons. 
 
-	![The computation graph](assets/computation-graph.png)
+![The computation graph](assets/computation-graph.png)
 
-	* The interconnections between neurons are data that is the output of a neuron fed into another neuron. These are the edges in the computation graph and often referred to as answers, that is **multidimensional** data.
+* The interconnections between neurons are data that is the output of a neuron fed into another neuron. These are the edges in the computation graph and often referred to as answers, that is **multidimensional** data.
 
-	![The computation graph tensors](assets/computation-graph-tensor.png)
+![The computation graph tensors](assets/computation-graph-tensor.png)
 
-	* It's easy to imagine a weight and a single connection between two neurons. Now just extend this to thousands of connections, which means thousands of neurons and you're got your neural network.
+* It's easy to imagine a weight and a single connection between two neurons. Now just extend this to thousands of connections, which means thousands of neurons and you're got your neural network.
 
-	![The computation graph trained](assets/computation-graph-trained.png) 
+![The computation graph trained](assets/computation-graph-trained.png) 
 
-	* Each neuron only applies two simple functions to its inputs
-	![Two simple function](assets/two-simple-functions.png)
+* Each neuron only applies two simple functions to its inputs
+![Two simple function](assets/two-simple-functions.png)
 
-	* Affine Transformation
+* Affine Transformation
 
-	The first of these functions is called the affine transformation, and it's just a linear function.
+The first of these functions is called the affine transformation, and it's just a linear function.
 
-	![Affine Transformation](assets/affine-transformation.png)
+![Affine Transformation](assets/affine-transformation.png)
 
-	**The affine transformation** is only capable f learning linear relationships between the inputs and the output of the form W multiple by X plus B.
-		* So, you have the X vector, that is the input to a neuron, and every X value is associated with a corresponding weight and there is a *bias* value that is also passed into the affine transformation
-		* The affine transformation is just a weighted sum with a bias added of the form W1X1 + W2X2, all the way up to WnXn + b
+**The affine transformation** is only capable f learning linear relationships between the inputs and the output of the form W multiple by X plus B.
+	* So, you have the X vector, that is the input to a neuron, and every X value is associated with a corresponding weight and there is a *bias* value that is also passed into the affine transformation
+	* The affine transformation is just a weighted sum with a bias added of the form W1X1 + W2X2, all the way up to WnXn + b
 
-	![Affine transformation detail](assets/affine-transformation-detail.png)
+![Affine transformation detail](assets/affine-transformation-detail.png)
 
-	* Neural network are capable of modeling very complex non-linear relationships as well. And this is made possible due to the other function that a neuron applies to its inputs, that is the activation function.
-	* The output of the affine transformation is fed into this **activation function**, and this is the function that helps the neuron discover non-linear relationships and data.
-	* There are a number of different activation functions that you can use when you're building up the layers of a neural network, and the choice of activation function is a part of designing a neural network.
+* Neural network are capable of modeling very complex non-linear relationships as well. And this is made possible due to the other function that a neuron applies to its inputs, that is the activation function.
+* The output of the affine transformation is fed into this **activation function**, and this is the function that helps the neuron discover non-linear relationships and data.
+* There are a number of different activation functions that you can use when you're building up the layers of a neural network, and the choice of activation function is a part of designing a neural network.
 
-	![Activation function](assets/activation-function.png)
+![Activation function](assets/activation-function.png)
 
-	* When the activation function is the identify function. It takes the output of the affine transformation and simply passes the same output through as the output of the neuron.
-	* This neuron is referred to as a **linear neuron**. Such a neuron is only capable of learning linear relationships between the inputs and the output
+* When the activation function is the identify function. It takes the output of the affine transformation and simply passes the same output through as the output of the neuron.
+* This neuron is referred to as a **linear neuron**. Such a neuron is only capable of learning linear relationships between the inputs and the output
 
-	![The identify function](assets/activation-function-identify.png)
+![The identify function](assets/activation-function-identify.png)
 
+### 2.4 Introducing PyTorch
+> A deep learning framework for fast, flexible experimentation.
 
+## 3. Working PyTorch Tensors
+> Tensor: The central unit of data in PyTorch. A tensor consists of a set of primitive values shaped into an array of any number of dimensions.
 
+* **Data is represented as Tensors**
 
+* Scalars are essentially **0-D** tensors
 
+* Vectors are **1-D** tensors
+![1-D tensors](assets/1-D-tensors.png)
+
+* Matrices are **2-D** tensors
+![2-D tensors](assets/2-D-tensors.png)
+
+* N-Dimensional matrices are **N-D** tensors
+![N-D tensors](assets/n-D-tensors.png)
+
+> PyTorch Tensors have been architected to make optimal use of GPUs for massively parallel computations
 
 
 
