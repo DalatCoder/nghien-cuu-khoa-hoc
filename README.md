@@ -57,14 +57,14 @@ Doing machine learning requires:
 - Machine learning can probably help your organization
 
 ## 8. The machine leaning process
-<p>Iterative: In both big and small ways</p>
-<p>Challenging: It's rarely easy</p>
-<p>Often rewarding: But not always</p>
+* **Iterative**: In both big and small ways
+* **Challenging**: It's rarely easy
+* **Often rewarding**: But not always
 
 ## 9. The first problem: asking the right question
-<p>Choosing what question to ask is the most important of the process</p>
-<p>Ask yourself: do you have the right data to answer this question?</p>
-<p>Ask yourself: do you know how you'll measure success?</p>
+Choosing what question to ask is the most important of the process
+Ask yourself: do you have the right data to answer this question?
+Ask yourself: do you know how you'll measure success?
 
 ![The machine learning process](assets/process.png)
 
@@ -75,6 +75,7 @@ Doing machine learning requires:
 - Training a model
 - Testing a model
 - Using a model 
+
 ### Some terminology
 - Training data: the prepared data used to create a model
 - Creating a model is called training a model
@@ -102,13 +103,13 @@ Here, we have data. We want to find clusters in that data. This is a good exampl
 ![Styles of machine learning algorithms](assets/algorithms.png)
 
 ### 10.4 Training a model with supervised learning
-Traing a model with supervised learning
+**Traing a model with supervised learning**
 ![Training a model](assets/training-model.png)
 
-Testing a model
+**Testing a model**
 ![Testing a model](assets/testing-model.png)
 
-Improving a model
+**Improving a model**
 ![Improve a model](assets/improve-model.png)
 
 ### 10.5 Using a model
