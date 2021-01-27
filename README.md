@@ -34,11 +34,11 @@ This is what machine learning does
 - Application: Supplies new data to see if it matches known pattern
 
 ## 4. Why is machine learning is so hot right now?
-<p>Doing machine learning requires:</p>
-- Lots of data: (Big data)
-- Lots of computer power: (Cloud computing)
-- Effective machine learning algorithms
-<p>=> All of those things are now more available than ever</p>
+Doing machine learning requires:
+* Lots of data: (Big data)
+* Lots of computer power: (Cloud computing)
+* Effective machine learning algorithms  
+=> All of those things are now more available than ever
 
 ## 5. Who's interested in Machine learning?
 1. Business leaders: want solutions to bussiness problems
