@@ -298,6 +298,19 @@ Neurons receive input from neurons in the previous layer and pass the output to 
 
 	![Operation of a single neuron - Weight](assets/operation-of-single-neuron-weight.png)
 
+	* A term that you'll hear used for this W is model parameters. All of the weights associated with all of the interconnections in your neural network are the parameters that make up your machine learning model.
+	* The above figure is a zoom in view of a single interconnection between two neurons. But all of the neurons in all of the layers of a neural network are connected together in exactly the same way.
+	* **So this entire thing is a very large computation graph** and the nodes in this enormous computation graph are just neurons. 
+
+	![The computation graph](assets/computation-graph.png)
+
+	* The interconnections between neurons are data that is the output of a neuron fed into another neuron. These are the edges in the computation graph and often referred to as answers, that is **multidimensional** data.
+
+	![The computation graph tensors](assets/computation-graph-tensor.png)
+
+	* It's easy to imagine a weight and a single connection between two neurons. Now just extend this to thousands of connections, which means thousands of neurons and you're got your neural network.
+
+	![The computation graph trained](assets/computation-graph-trained.png)
 
 
 
