@@ -243,7 +243,7 @@ Neural networks are examples of such systems
 * **Neurons** Simple building blocks that actually "learn"
 
 ![Neural network](assets/neural-network.png)
-
+Update
 
 ![Visible layer in neural network](assets/visible-layer-neural-network.png)
 
