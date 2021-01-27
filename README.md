@@ -232,6 +232,9 @@ Algorithm Decision Factors:
 * STatic graph in TF vs. dynamic graph in PyTorch
 
 ## 2. Getting started with Pytorch for machine learning
+
+> The PyTorch framework is used to build neural networks
+
 ### 2.1 Introducing Neural Networks
 Machine Learning base classifier 
 * **Training**: Feed in a large corpus of data classified correctly
@@ -243,19 +246,38 @@ Machine Learning base classifier
 Neural networks are examples of such systems
 
 ### 2.2 What is a Neural Network?
-* **Deep learning** Algorithms that learn what features matter
-* **Neural networks** The most common class of deep learning algorithms
-* **Neurons** Simple building blocks that actually "learn"
+* **Deep learning** Algorithms that learn what features matter. The performance of these algorithms get better as you feed them more data.
+* **Neural networks** The most common class of deep learning algorithms. One reason neural networks are called deep learning because they use many layers in order to learn from input data.
+* **Neurons** The fundamental building block of all neural networks. Simple building blocks that actually "learn". Neurons are the active learning units in the neural networks that actually learn from the training data that you feed in.
 
 ![Neural network](assets/neural-network.png)
-Update
+Within the neural network, there are different layers and all of these layers share responsibility in understanding patterns and data.
+
+Different layers are responsible for understanding different details in the data that is fed in.
+
+Each layer has its own set of patterns to identify and piece together.
+
+If you're thinking of an image classification system:
+* The first layer, say layer 1, will be responsible for looking at pixels.
+* Layer 2 might piece pixels together to find edges and corners.
+* Layer 3 might piece edges and corners together to identify objects.
+* Layer 4 might piece objects together to identify features, such as a nose or a face.
+
+**The layers with which we interact directly are called visible layers of a neural network.**
+* This is the input layer where we feed in the training data and instances for prediction.
+* The output layer, which outputs the prediction of the neural network. This can be a classification label or a regression prediction.
 
 ![Visible layer in neural network](assets/visible-layer-neural-network.png)
 
+**The layers that we as developers don't interact with directly are termed as hidden layers on the neural network.**
+These are the layers that are responsible for extracting granular detail from the input, finding patterns, and piecing these patterns into higher level abstractions.
 
+**Every layer of a neural network is composed of the active learning unit, that is a neuron**
+So each layer consists of individual interconnected neurons.
 
+Neurons receive input from neurons in the previous layer and pass the output to neurons in the next layer.
 
-
+![Neurons Interconnected](assets/neurons-interconnected.png)
 
 
 
