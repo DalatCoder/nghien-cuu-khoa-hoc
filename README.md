@@ -213,13 +213,66 @@ Algorithm Decision Factors:
 
 # Foundations of PyTorch
 
-## 1. Getting started with Pytorch for machine learning
-### Overiew:
-- Deep learning using neural networks
-- Neurons and activation functions
-- Introducing PyTorch to build neural networks
-- Understanding the differences between PyTorch and TensorFlow
-### Prerequisites and Course outline:
-- Working with Python and Python libraries
-- Basic understanding of machine learning algorithms
-- No prior experience with neural networks necessary
+## 1. Course outline
+### 1.1 Getting started with PyTorch
+* Introducing neural networks and PyTorch
+* Tensor operations and CUDA support
+
+### 1.2 Gradients and Autograd library
+* Gradient descent to train NNs
+* Working with gradients in PyTorch
+
+### 1.3 Dynamic computations graphs
+* Pros and cons of working with each 
+* STatic graph in TF vs. dynamic graph in PyTorch
+
+## 2. Getting started with Pytorch for machine learning
+### 2.1 Introducing Neural Networks
+Machine Learning base classifier 
+* **Training**: Feed in a large corpus of data classified correctly
+* **Prediction**: Use it to classify new instances which it has not seen before
+
+> "Traditional" ML-based systems rely on experts to decide what features to pay attention to
+
+> "Representation" ML-based systems figure out by themselves what features to pay attention to.  
+Neural networks are examples of such systems
+
+### 2.2 What is a Neural Network?
+* **Deep learning** Algorithms that learn what features matter
+* **Neural networks** The most common class of deep learning algorithms
+* **Neurons** Simple building blocks that actually "learn"
+
+![Neural network](assets/neural-network.png)
+
+
+![Visible layer in neural network](assets/visible-layer-neural-network.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
