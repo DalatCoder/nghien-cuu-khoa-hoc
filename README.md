@@ -2,32 +2,35 @@
 
 # Understanding Machine Learning
 ## 1. Overview:
-- What machine learning is?
-- Machine learning process
-- Basic concepts & terminology
+* What machine learning is?
+* Machine learning process
+* Basic concepts & terminology
 
 ## 2. What is machine learning?
-<p>What machine learning does?</p>
-- Finds patterns in data
-- Uses those patterns to predict the future
-- Examples:
-	- Detecting credit card fraud
-	- Determining whether a customer is likely to switch to a competitor
-	- Deciding when to do preventive maintenance on a factory robot
-<p>What does it mean to learn?</p>
-<p>How did you learn to read?</p>
-<p>Learning requires:</p>
-- Identifying patterns
-- Recognizing those patterns when you see them again
-<P>This is what machine learning does</P>
+What machine learning does?
+
+* Finds patterns in data
+* Uses those patterns to predict the future
+* Examples:
+	* Detecting credit card fraud
+	* Determining whether a customer is likely to switch to a competitor
+	* Deciding when to do preventive maintenance on a factory robot
+
+What does it mean to learn?
+
+Learning requires:
+* Identifying patterns
+* Recognizing those patterns when you see them again
+
+This is what machine learning does
 
 ## 3. Machine learning in a nutshell
-- Data: contains pattern
--> Feed data into a machine learning algorithm
-- Machine learning algorithm: finds patterns
--> The algorithm generates something called a model
-- Model: recognizes patterns
--> Application supplies data to the model
+- Data: contains pattern  
+-> Feed data into a machine learning algorithm  
+- Machine learning algorithm: finds patterns  
+-> The algorithm generates something called a model  
+- Model: recognizes patterns  
+-> Application supplies data to the model  
 - Application: Supplies new data to see if it matches known pattern
 
 ## 4. Why is machine learning is so hot right now?
