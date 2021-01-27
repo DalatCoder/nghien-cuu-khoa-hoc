@@ -38,6 +38,7 @@ Doing machine learning requires:
 * Lots of data: (Big data)
 * Lots of computer power: (Cloud computing)
 * Effective machine learning algorithms  
+
 => All of those things are now more available than ever
 
 ## 5. Who's interested in Machine learning?
