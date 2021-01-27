@@ -279,6 +279,22 @@ Neurons receive input from neurons in the previous layer and pass the output to 
 
 ![Neurons Interconnected](assets/neurons-interconnected.png)
 
+### 2.3 Neurons and Activation Functions
+* Operation of a single neuron: 
+	* A neuron is just a mathematical function that is applied to the inputs that are fed into a neuron.
+	* A single neuron can have any number of inputs, and these inputs are typically represented as X. These are also the X variables, or the features, that you use to train your model.
+	* The input to a neuron is typically a vector X variables or X values. The neuron then applies a mathematical function to this input and produces a scalar output Y.
+	* **For an active neuron a change in input should trigger a corresponding change in the output**
+
+	![Operation of a single neuron](assets/operation-of-single-neuron.png)
+
+	* A single neuron can be connected to any number of neurons in the next layer.
+	* In the below figure, the output of the first neuron is fed to the input of the second neuron.
+	* Every interconnection between two neurons is associated with the *weight* that is typically represented by the letter W. This *weight* denotes the significance of this particular input for the second neuron.
+	* **If the second neuron is sensitive to the output of the first neuron, the connection between them gets stronger**
+	* **Neurons that fire together are wired together**
+
+	![Operation of a single neuron - Weight](assets/operation-of-single-neuron-weight.png)
 
 
 
