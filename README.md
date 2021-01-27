@@ -310,7 +310,23 @@ Neurons receive input from neurons in the previous layer and pass the output to 
 
 	* It's easy to imagine a weight and a single connection between two neurons. Now just extend this to thousands of connections, which means thousands of neurons and you're got your neural network.
 
-	![The computation graph trained](assets/computation-graph-trained.png)
+	![The computation graph trained](assets/computation-graph-trained.png) 
+
+	* Each neuron only applies two simple functions to its inputs
+	![Two simple function](assets/two-simple-functions.png)
+
+	* Affine Transformation
+
+	The first of these functions is called the affine transformation, and it's just a linear function.
+
+	![Affine Transformation](assets/affine-transformation.png)
+
+	**The affine transformation** is only capable f learning linear relationships between the inputs and the output of the form W multiple by X plus B.
+		* So, you have the X vector, that is the input to a neuron, and every X value is associated with a corresponding weight and there is a *bias* value that is also passed into the affine transformation
+		* The affine transformation is just a weighted sum with a bias added of the form W1X1 + W2X2, all the way up to WnXn + b
+
+	![Affine transformation detail](assets/affine-transformation-detail.png)
+
 
 
 
