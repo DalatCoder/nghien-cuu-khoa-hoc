@@ -29,7 +29,7 @@ Both input vector must have the same shape.
 The number of columns in A must equal to the number of rows in B 
 
 **Element-Wise Product**
-[!Element Wise Product](images/elementwiseproduct.png)
+![Element Wise Product](images/elementwiseproduct.png)
 
 Both A and B must have the same shape.
 
