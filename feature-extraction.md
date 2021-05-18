@@ -1,1 +1,0 @@
-# TRÍCH XUẤT ĐẶC TRƯNG RESNET
